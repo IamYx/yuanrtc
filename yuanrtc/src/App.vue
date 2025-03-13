@@ -229,13 +229,14 @@ function handleLeaveRoom() {
   flex-direction: column;
   gap: 20px;
   padding: 20px;
-  flex-direction: row;
+  /* flex-direction: row; */
 }
 
 .color-block1,
 .color-block2 {
-  width: 40%;
-  aspect-ratio: 9/16; /* 宽高比9:16 */
+  width: 80%;
+  max-width: 300px;
+  aspect-ratio: 1/1; /* 宽高比9:16 */
   border-radius: 8px;
 }
 
